@@ -1,0 +1,86 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: lightblue;
+    color:white;
+    text-align: center;
+    padding: 1rem;
+
+}
+
+nav ul {
+    background-color:black ;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: lightblue;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+footer {
+    background-color: rosybrown;
+    color: white;
+    padding: 50px;
+}
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color:white ;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
